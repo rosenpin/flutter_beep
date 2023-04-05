@@ -14,7 +14,7 @@ class FlutterBeep {
 
   static Future<void> beep([bool success = true]) {
     var soundId =
-        (Platform.isAndroid) ? (success ? 24 : 25) : (success ? 1256 : 1257);
+        (Platform.isAndroid) ? (success ? 24 : 25) : (success ? 1272 : 1273);
     return playSysSound(soundId);
   }
 }
